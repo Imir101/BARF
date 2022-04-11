@@ -1,0 +1,46 @@
+a {
+    text-decoration: none;
+    color: black;
+}
+ul {
+    list-style: none;
+}
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+li + li{
+    margin-top: 30px;
+}
+body{
+    text-align: left;
+    font-size: 30px;
+    background-color: #7ac4a3;
+}
+.container{
+    padding: 0 40px;
+}
+.projects{
+    margin-top: 100px;
+
+}
+.projects a{
+    transition: 0.3s;
+    margin-left: 20px;
+}
+.projects a:hover {
+    color: coral;
+}
+
+@media (max-width: 560px){
+    body{
+        font-size: 20px;
+    }
+    li+li {
+        margin-top: 30px;
+    }
+    .container{
+        padding: 0 15px;
+    }
+}
